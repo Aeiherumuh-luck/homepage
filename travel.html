@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh‑CN">
+<head>
+<meta charset="UTF‑8">
+<meta name="viewport" content="width=device‑width, initial‑scale=1.0">
+<title>旅游照片</title>
+<style>
+.photo-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:16px;
+    margin:20px 0;
+}
+.photo-grid img{
+    width:100%;
+    border-radius:8px;
+    object-fit:cover;
+}
+</style>
+</head>
+<body>
+<h1>我的旅游照片</h1>
+<p>新疆、西藏、云南旅途记录</p >
 
+<div class="photo-grid">
+    < img src="/travel1.jpg" alt="旅途照片1">
+    < img src="/travel2.jpg" alt="旅途照片2">
+    < img src="/travel3.jpg" alt="旅途照片3">
+    < img src="/travel4.jpg" alt="旅途照片4">
+</div>
+
+<br>
+<a href=" ">← 返回个人主页</a >
+</body>
+</html>
